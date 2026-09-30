@@ -7,7 +7,7 @@ numero_saques = 0
 LIMITE_SAQUES = 3
 
 while True:
-    opcao = input("\n[d] Depositar \n[s] Sacar \n[e] Extrato \n[q] Sair \n=> ").upper()
+    opcao = input("\n[d] Depositar \n[s] Sacar \n[e] Extrato \n[q] Sair \n=> ").lower()
 
     if opcao == "d":
         valor = float(input("Informe o valor do depósito: R$ "))
